@@ -52,8 +52,7 @@ Maruku
 
 Sed nisi nunc, dictum sit amet gravida in, finibus rhoncus orci. Donec scelerisque commodo turpis ac venenatis.
 
-
-![Small example image](test.jpg "Small example image")
+![Small example image](/test.jpg "Small example image")
 
 Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
