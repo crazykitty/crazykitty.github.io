@@ -34,11 +34,49 @@ iPhone try-hard jean shorts.
 Syntax highlighting with Solarized theme.
 
 {% highlight java %}
-class User < ActiveRecord::Base
-  attr_accessible :email, :name
+public class NE3SOperationNotificationService extends Service {
 
-  ... tons of other crap ...
+	    public final static URL WSDL_LOCATION;
+	    public final static QName SERVICE = new QName("http://www.nokiasiemens.com/ne3s/1.0", "NE3SOperationNotificationService");
+	    public final static QName Ne3SOperationNotification = new QName("http://www.nokiasiemens.com/ne3s/1.0", "ne3sOperationNotification");
+	    static {
+		WSDL_LOCATION =  ClassLoader.getSystemResource("NE3S.wsdl");
+	    }
+	
+	    public NE3SOperationNotificationService(URL wsdlLocation) {
+	        super(wsdlLocation, SERVICE);
+	    }
+	
+	    public NE3SOperationNotificationService(URL wsdlLocation, QName serviceName) {
+	        super(wsdlLocation, serviceName);
+	    }
+	
+	    public NE3SOperationNotificationService() {
+	        super(WSDL_LOCATION, SERVICE);
+	    }
+	
+	    /**
+	     * 
+	     * @return
+	     *     returns NE3SOperationNotificationPort
+	     */
+	    @WebEndpoint(name = "ne3sOperationNotification")
+	    public NE3SOperationNotificationPort getNe3SOperationNotification() {
+	        return super.getPort(Ne3SOperationNotification, NE3SOperationNotificationPort.class);
+	    }
+	
+	    /**
+	     * 
+	     * @param features
+	     *     A list of {@link javax.xml.ws.WebServiceFeature} to configure on the proxy.  Supported features not in the <code>features</code> parameter will have their default values.
+	     * @return
+	     *     returns NE3SOperationNotificationPort
+	     */
+	    @WebEndpoint(name = "ne3sOperationNotification")
+	    public NE3SOperationNotificationPort getNe3SOperationNotification(WebServiceFeature... features) {
+	        return super.getPort(Ne3SOperationNotification, NE3SOperationNotificationPort.class, features);
+	    }
 
-end
+	}
 
 {% endhighlight %}
