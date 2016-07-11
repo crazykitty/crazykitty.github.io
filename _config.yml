@@ -1,6 +1,5 @@
 # General Jekyll Config
 highlighter: pygments
-url: https://crazykitty.github.io
+url: http://crazykitty.github.io
 lsi: false
-relative_permalinks: true
 exclude: [LICENSE, CNAME, README.md, .gitignore, Gemfile, Gemfile.lock]
