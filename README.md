@@ -1,24 +1,25 @@
-White Paper
-============
+# Kiko
 
-White Paper is a jekyll theme for tech blogs. It is clean and simple with good semantic
-structure.
+[Kiko](http://github.com/gfjaru/Kiko) is a theme for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@gfjaru](https://twitter.com/gfjaru).
 
-![white-paper image](https://i.cloudup.com/rmZjQ83vRh-2000x2000.png)
+[See it live](https://kiko.gfjaru.com/)
 
-## Usage:
+## To do lists
 
-- Install Jekyll from here(http://jekyllrb.com/)
-- Fork the project.
-- Change the fields in _config.yml.
-- Change the links in header.html.
+Next update is new theme based from Kiko.
 
-Test the website live while editing the code:
+## Get Started
 
-```sh
-jekyll server --watch
-```
+1. Fork this repository
+2. Clone the repository to your computer.<br />`git clone https://github.com/YOURUSERNAME/Kiko`  
+3. Run it.<br />`jekyll serve`
+4. Go to http://127.0.0.1:4000.
 
-## Issues:
+## Make it yours
 
-Report issues or feature request [here](https://github.com/vinitkumar/white-paper/issues).
+1. Change name and add/remove nav at `_config.yml`.
+2. Change `about.md`.
+
+## License
+
+This theme is released under MIT License.
