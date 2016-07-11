@@ -1,6 +1,6 @@
 name: White Paper
 highlighter: true
-url: http://vinitkumar.me/white-paper
+url: http://crazykitty.github.io/white-paper
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
 description:     Jekyll theme for Programmers
