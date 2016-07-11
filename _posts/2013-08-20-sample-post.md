@@ -33,7 +33,7 @@ iPhone try-hard jean shorts.
 
 Syntax highlighting with Solarized theme.
 
-{% highlight ruby %}
+{% highlight java %}
 class User < ActiveRecord::Base
   attr_accessible :email, :name
 
