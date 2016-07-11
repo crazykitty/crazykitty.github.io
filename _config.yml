@@ -1,10 +1,10 @@
 name: White Paper
 highlighter: true
-url: http://crazykitty.github.io/white-paper
+url: http://crazykitty.github.io
 gems: [jekyll-paginate,  jekyll-gist]
 paginate: 8
-description:     Jekyll theme for Programmers
-intro: White Paper is a Jekyll theme most suited to be used on tech blogs that like their content to shine.
+description:     test12345
+intro: test mymymy
 logo:             logo.png
 disqus_shortname:
 # url: http://gotchacode.com
