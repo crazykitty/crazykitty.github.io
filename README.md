@@ -1,2 +1,0 @@
-# crazykitty.github.io
-Blogs
