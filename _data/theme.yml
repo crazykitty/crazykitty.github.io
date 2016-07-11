@@ -5,18 +5,19 @@ highlight_color: '#3498db'
 
 # Profile links on the left sidebar, leave blank to ignore
 social:
-  github: swanson
+  #github: swanson
   #bitbucket: philipj
-  hacker_news: swanson
+  #hacker_news: swanson
   #stackexchange: 348619
   #stackoverflow: 348619
-  twitter: _swanson
+  #twitter: _swanson
   #facebook: zuck
   #tumblr: animalygifs
   #linkedin: philipjagielski
   #gplus: 110552447039675960964
   #gravatar: 86e6ff8f75f9daef42d53b7f8002fd95
   #flickr: johndoe
+  qq: 653748929
 
 # "Hi, I'm _______"
 name: crazykitty
@@ -30,4 +31,4 @@ google_analytics_key: UA-xxxx-x
 show_disclaimer: true
 
 # Toggle link/icon to view atom feed (/atom.xml) in sidebar
-show_atom_feed: true
+#show_atom_feed: true
