@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Java Basic Knowledge" 
-date: 2016-07-17 21:00:00 
 categories: java
 ---
 ## Java基本数据类型
