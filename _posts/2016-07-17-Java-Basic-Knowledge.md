@@ -5,6 +5,7 @@ categories: java
 ---
 ## Java基本数据类型
 Java有8种数据类型:
+
 - short (2 byte)
 - int (4 byte)
 - long (8 byte)
@@ -18,10 +19,11 @@ Java有8种数据类型:
 - boolean 
 
 类型转换:
-``` java
+
+```java
 public calss BasicTypeChange{
     private void typeAutoUpgrade(){
         
     }
 }
-```
+``` 
