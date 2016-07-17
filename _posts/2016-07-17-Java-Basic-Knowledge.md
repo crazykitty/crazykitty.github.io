@@ -18,7 +18,7 @@ Java有8种数据类型:
 - boolean 
 
 类型转换:
-```java
+``` java
 public calss BasicTypeChange{
     private void typeAutoUpgrade(){
         
